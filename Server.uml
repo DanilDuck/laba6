@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/imia/IdeaProjects/LAB6/Server</OriginalElement>
+  <nodes>
+    <node x="659.0" y="790.0">io.OutputManager</node>
+    <node x="1433.0" y="790.0">io.Question</node>
+    <node x="186.5" y="633.0">connection.Response</node>
+    <node x="1939.5" y="400.0">commands.ServerCommandManager</node>
+    <node x="2905.0" y="476.0">data.Collectionable</node>
+    <node x="0.0" y="162.0">commands.AddIfMaxCommand</node>
+    <node x="2803.0" y="790.0">connection.Status</node>
+    <node x="1251.0" y="790.0">json.DateSerializer</node>
+    <node x="445.0" y="790.0">json.LocalDateSerializer</node>
+    <node x="2199.5" y="319.0">exceptions.InvalidPortException</node>
+    <node x="2894.0" y="162.0">commands.PrintAscendingCommand</node>
+    <node x="684.0" y="633.0">commands.FilterStartsWithNameCommand</node>
+    <node x="0.0" y="557.0">exceptions.FileNotExistsException</node>
+    <node x="787.0000000000001" y="162.0">commands.SaveCommand</node>
+    <node x="951.9999999999999" y="557.0">exceptions.InvalidReceivedDataException</node>
+    <node x="2014.75" y="476.0">collection.CollectionManager</node>
+    <node x="2061.0" y="633.0">json.LocalDateTimeSerializer</node>
+    <node x="1424.0" y="557.0">exceptions.InvalidNumberException</node>
+    <node x="180.0" y="714.0">connection.AnswerMsg</node>
+    <node x="687.0" y="557.0">exceptions.CannotCreateFileException</node>
+    <node x="1.5" y="319.0">exceptions.InvalidCommandArgumentException</node>
+    <node x="2719.0" y="162.0">commands.ShowCommand</node>
+    <node x="1614.0" y="790.0">collection.package-info</node>
+    <node x="1813.0" y="633.0">commands.ExecuteScriptCommand</node>
+    <node x="2927.5" y="557.0">data.Person</node>
+    <node x="0.0" y="790.0">commands.AddIfMinCommand</node>
+    <node x="307.5" y="319.0">exceptions.NoSuchCommandException</node>
+    <node x="626.0000000000001" y="162.0">commands.ExitCommand</node>
+    <node x="0.0" y="400.0">exceptions.MissedCommandArgumentException</node>
+    <node x="2306.0" y="633.0">commands.RemoveFirstCommand</node>
+    <node x="1643.0" y="162.0">commands.FilterContainsNameCommand</node>
+    <node x="202.0" y="162.0">commands.LoadCommand</node>
+    <node x="701.75" y="238.0">exceptions.CommandException</node>
+    <node x="373.0" y="162.0">commands.PrintFieldAscendingEyeColor</node>
+    <node x="1651.0" y="557.0">exceptions.InvalidEnumException</node>
+    <node x="982.0" y="633.0">exceptions.ServerOnlyCommandException</node>
+    <node x="1795.0" y="790.0">json.package-info</node>
+    <node x="1974.0" y="238.0">commands.Commandable</node>
+    <node x="1518.5" y="400.0">io.FileInputManager</node>
+    <node x="0.0" y="866.0">main.Main</node>
+    <node x="1392.5" y="81.0">commands.CommandImpl</node>
+    <node x="1142.0" y="162.0">commands.HelpCommand</node>
+    <node x="225.0" y="790.0">commands.CommandWrapper</node>
+    <node x="1056.0" y="790.0">commands.CommandType</node>
+    <node x="2383.0" y="557.0">connection.CommandMsg</node>
+    <node x="2549.0" y="633.0">json.CollectionDeserializer</node>
+    <node x="1887.0" y="557.0">collection.WorkerCollectionManager</node>
+    <node x="2655.0" y="790.0">data.Country</node>
+    <node x="1062.5" y="319.0">exceptions.ExitException</node>
+    <node x="129.0" y="866.0">log.Log</node>
+    <node x="2534.0" y="162.0">commands.HistoryCommand</node>
+    <node x="2940.0" y="790.0">data.Color</node>
+    <node x="2900.5" y="319.0">exceptions.InvalidAddressException</node>
+    <node x="1976.0" y="790.0">commands.package-info</node>
+    <node x="2157.0" y="790.0">data.Coordinates</node>
+    <node x="1212.0" y="557.0">exceptions.EmptyStringException</node>
+    <node x="1325.75" y="476.0">exceptions.InvalidDataException</node>
+    <node x="2740.0" y="557.0">server.Server</node>
+    <node x="2314.0" y="162.0">commands.RemoveByIdCommand</node>
+    <node x="352.0" y="633.0">commands.GroupCountingByEndDateCommand</node>
+    <node x="2124.0" y="557.0">collection.PersonCollectionManager</node>
+    <node x="354.75" y="476.0">exceptions.FileException</node>
+    <node x="1552.0" y="633.0">json.LocalDateTimeDeserializer</node>
+    <node x="793.5" y="319.0">exception.ServerOnlyCommandException</node>
+    <node x="2712.0" y="476.0">connection.SenderReceiver</node>
+    <node x="3.0" y="714.0">file.FileManager</node>
+    <node x="1276.0" y="633.0">commands.PrintUniqueSalaryCommand</node>
+    <node x="1601.5" y="319.0">io.InputManagerAbstract</node>
+    <node x="2544.5" y="238.0">exceptions.ConnectionException</node>
+    <node x="212.0" y="557.0">exceptions.EmptyPathException</node>
+    <node x="1406.5" y="0.0">commands.Command</node>
+    <node x="1311.0" y="162.0">commands.InfoCommand</node>
+    <node x="557.5" y="319.0">exceptions.EmptyCollectionException</node>
+    <node x="2643.5" y="319.0">exceptions.ConnectionTimeoutException</node>
+    <node x="2481.0" y="476.0">connection.Request</node>
+    <node x="414.0" y="557.0">exceptions.FileWrongPermissionsException</node>
+    <node x="2143.0" y="162.0">commands.ClearCommand</node>
+    <node x="2400.5" y="319.0">exceptions.PortAlreadyInUseException</node>
+    <node x="2331.0" y="790.0">io.Askable</node>
+    <node x="1217.5" y="319.0">exceptions.RecursiveScriptExecuteException</node>
+    <node x="2504.0" y="790.0">data.Location</node>
+    <node x="1701.5" y="400.0">io.ConsoleInputManager</node>
+    <node x="858.0" y="790.0">json.DateDeserializer</node>
+    <node x="0.0" y="633.0">file.ReaderWriter</node>
+    <node x="2780.0" y="633.0">json.LocalDateDeserializer</node>
+    <node x="1628.0" y="238.0">io.InputManager</node>
+    <node x="1959.0" y="319.0">commands.CommandManager</node>
+    <node x="1906.0" y="162.0">commands.RemoveGreaterCommand</node>
+    <node x="2551.0" y="557.0">commands.Argument</node>
+    <node x="1476.0" y="162.0">commands.AddCommand</node>
+    <node x="956.0000000000001" y="162.0">commands.UpdateCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="commands.ShowCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2796.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.FileWrongPermissionsException" target="exceptions.FileException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="540.5" y="532.0" />
+      <point x="421.75" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1039.0" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.ServerCommandManager" target="commands.CommandManager" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="io.ConsoleInputManager" target="io.InputManagerAbstract" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1798.0" y="375.0" />
+      <point x="1699.0" y="375.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="collection.PersonCollectionManager" target="collection.CollectionManager" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2231.0" y="532.0" />
+      <point x="2113.25" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.PrintAscendingCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="3001.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.ExitCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="696.5000000000001" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.SaveCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="861.5000000000001" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.FilterContainsNameCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1764.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.NoSuchCommandException" target="exceptions.CommandException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="422.5" y="294.0" />
+      <point x="791.75" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.HelpCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1216.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.InvalidNumberException" target="exceptions.InvalidDataException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1527.5" y="532.0" />
+      <point x="1417.75" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.FileNotExistsException" target="exceptions.FileException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="96.0" y="532.0" />
+      <point x="421.75" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.CommandImpl" target="commands.Command" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.PrintFieldAscendingEyeColor" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="489.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.EmptyStringException" target="exceptions.InvalidDataException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1308.0" y="532.0" />
+      <point x="1417.75" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="io.InputManagerAbstract" target="io.InputManager" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.HistoryCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2616.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.ExitException" target="exceptions.CommandException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1130.0" y="294.0" />
+      <point x="791.75" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.Argument" target="connection.Request" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2609.0" y="532.0" />
+      <point x="2533.0" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="io.FileInputManager" target="io.InputManagerAbstract" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1600.0" y="375.0" />
+      <point x="1699.0" y="375.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.RemoveGreaterCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2014.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exception.ServerOnlyCommandException" target="exceptions.CommandException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="918.0" y="294.0" />
+      <point x="791.75" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="collection.WorkerCollectionManager" target="collection.CollectionManager" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1995.5" y="532.0" />
+      <point x="2113.25" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.InvalidEnumException" target="exceptions.InvalidDataException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1746.5" y="532.0" />
+      <point x="1417.75" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.RecursiveScriptExecuteException" target="exceptions.CommandException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1345.5" y="294.0" />
+      <point x="791.75" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.ConnectionTimeoutException" target="exceptions.ConnectionException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2762.0" y="294.0" />
+      <point x="2637.0" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="file.FileManager" target="file.ReaderWriter" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.PortAlreadyInUseException" target="exceptions.ConnectionException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2512.0" y="294.0" />
+      <point x="2637.0" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="data.Person" target="data.Collectionable" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="connection.AnswerMsg" target="connection.Response" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.LoadCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="277.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.RemoveByIdCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2414.0" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.InvalidReceivedDataException" target="exceptions.InvalidDataException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1072.0" y="532.0" />
+      <point x="1417.75" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.InfoCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1383.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.InvalidAddressException" target="exceptions.ConnectionException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="3004.0" y="294.0" />
+      <point x="2637.0" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.InvalidCommandArgumentException" target="exceptions.CommandException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="144.5" y="294.0" />
+      <point x="791.75" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.MissedCommandArgumentException" target="exceptions.InvalidCommandArgumentException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.ClearCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2218.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="connection.CommandMsg" target="connection.Request" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2457.0" y="532.0" />
+      <point x="2533.0" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.AddIfMaxCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="91.0" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="server.Server" target="connection.SenderReceiver" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.CommandManager" target="commands.Commandable" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.InvalidPortException" target="exceptions.ConnectionException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2290.0" y="294.0" />
+      <point x="2637.0" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.EmptyCollectionException" target="exceptions.CommandException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="665.5" y="294.0" />
+      <point x="791.75" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.EmptyPathException" target="exceptions.FileException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="303.0" y="532.0" />
+      <point x="421.75" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="commands.AddCommand" target="commands.CommandImpl" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1549.5" y="137.0" />
+      <point x="1466.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="exceptions.CannotCreateFileException" target="exceptions.FileException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="797.0" y="532.0" />
+      <point x="421.75" y="532.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.36113774368807927" showDependencies="false" x="1554.5" y="448.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
