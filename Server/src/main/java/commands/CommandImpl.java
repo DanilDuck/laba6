@@ -1,0 +1,74 @@
+package commands;
+
+import connection.*;
+import data.Person;
+import exceptions.*;
+
+import java.io.IOException;
+import java.util.LinkedList;
+
+public abstract class  CommandImpl implements Command{
+    private CommandType type;
+    private String name;
+    private Request arg;
+    public CommandImpl(String n, CommandType t){
+        name = n;
+        type = t;
+    }
+    public CommandType getType(){
+        return type;
+    }
+    public String getName(){
+        return name;
+    }
+
+    /**
+     * custom execute command
+     * @return
+     * @throws InvalidDataException
+     * @throws CommandException
+     * @throws FileException
+     * @throws ConnectionException
+     */
+    public abstract String execute() throws InvalidDataException,CommandException, FileException, ConnectionException;
+
+    /**
+     * wraps execute into response
+     * @return
+     */
+    public Response run(){
+        AnswerMsg res = new AnswerMsg();
+        try{
+            res.info(execute());
+        }
+        catch(ExitException e){
+            res.info(e.getMessage());
+            res.setStatus(Status.EXIT);
+        }
+        catch(InvalidDataException|CommandException|FileException| ConnectionException e){
+            res.error(e.getMessage());
+        }
+        return res;
+    }
+    public Request getArgument(){
+        return arg;
+    }
+    public void setArgument(Request req){
+        arg=req;
+    }
+    public boolean hasStringArg(){
+        return arg!=null && arg.getStringArg()!=null && !arg.getStringArg().equals("");
+    }
+    public boolean hasWorkerArg(){
+        return arg!=null && arg.getPerson()!=null;
+    }
+
+    public String getStringArg(){
+        return getArgument().getStringArg();
+    }
+
+    public Person getPersonArg(){
+        return getArgument().getPerson();
+    }
+}
+
