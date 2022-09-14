@@ -13,6 +13,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 /**
  * client class
@@ -43,7 +44,7 @@ public class Client  implements SenderReceiver {
      * @param p
      * @throws ConnectionException
      */
-    public void connect(String addr, int p) throws InvalidAddressException{
+    public void connect(String addr, int p) throws InvalidAddressException, ConnectionTimeoutException {
         InetSocketAddress inetSocketAddress = null;
         try {
             inetSocketAddress = new InetSocketAddress(InetAddress.getByName(addr), p);
@@ -55,16 +56,16 @@ public class Client  implements SenderReceiver {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        do {
+        while (true) {
             try {
                 System.out.println("Trying to connect to the server");
                 socketChannel.connect(inetSocketAddress);
+                System.out.println("Connected to the server");
                 break;
             } catch (IOException e) {
-                throw new InvalidAddressException();
+                throw new ConnectionTimeoutException();
             }
-        } while (true);
-        System.out.println("Connected to the server");
+        }
     }
 
     /**
